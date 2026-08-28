@@ -35,12 +35,12 @@ YOLO_PATH = BASE_DIR / "yolo11n.pt"
 
 FIREBASE_API_KEY = os.getenv(
     "FIREBASE_API_KEY",
-    "AIzaSyDSHECu0Qzc6oJQ4jtpcj3bqTssq79dLzI"
+    "Your API KEY"
 )
 
 FIREBASE_DATABASE_URL = os.getenv(
     "FIREBASE_DATABASE_URL",
-    "https://ai-powered-smart-livestock-default-rtdb.asia-southeast1.firebasedatabase.app"
+    "Your DataBase URL"
 ).rstrip("/")
 
 FIREBASE_PATH = os.getenv(
